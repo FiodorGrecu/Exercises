@@ -3,7 +3,7 @@
 ONE = 'grep elephant book.txt'
 TWO = 'mv notes.txt newdir'
 THREE = 'grep -r string testdir'
-FOUR = ''
-FIVE = ''
-SIX = ''
-SEVEN = ''
+FOUR = 'rmdir'
+FIVE = '/'
+SIX = 'rm -r' # very dangerous 
+# SEVEN = ''
