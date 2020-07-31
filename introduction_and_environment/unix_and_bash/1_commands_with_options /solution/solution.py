@@ -1,5 +1,4 @@
 # Assign the correct strings below
-
 ONE = 'cd exercises'
 TWO = 'pwd'
 THREE = 'cat textfile.txt'

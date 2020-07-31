@@ -30,8 +30,7 @@
 * Move "luke_skywalker" and "old_man_ben" to the "tatooine" folder
 * Luke has found out old man ben is actually Obi Wan Kenobi. Change the name of "old_man_ben" to "obi_wan_kenobi"
 * Now they need to escape tatooine. Move "han_solo" and "chewbacca" into "tatooine"
-* While all this is happening the Sith lords are sitting nice and cozy inside their giant metal moon. Move "darth_vader" and "emperor_palpatine" inside the "death_star"
-* Back on tatooine the characters get on the fastest ship in the galaxy and take off to save the princess. Move all four files from tatooine into the millenium falcon
+3* Back on tatooine the characters get on the fastest ship in the galaxy and take off to save the princess. Move all four files from tatooine into the millenium falcon
 * The princess is also on the death star. Move "leia_organa" to the "death_star"
 * Our heroes sneak onto the Death Star. Move all the files inside the "millenium_falcon" onto the "death_star" 
 * They found the princess! but in the process Obi Wan was struck down by Darth Vader. Delete the "obi_wan_kenobi" file 
