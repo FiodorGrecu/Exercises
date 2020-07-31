@@ -1,0 +1,1 @@
+print("Boolean") # Wrong answer by the way! The right answer is Binary
