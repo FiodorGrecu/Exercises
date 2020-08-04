@@ -1,3 +1,6 @@
 # Code your solution here
 def shut_down(x):
-    return
+    if x == True:
+        return  "SHUTDOWN"
+    else:
+        return "SHUTDOWN ABORTED"
