@@ -1,6 +1,6 @@
 # Code your solution here
-number = int(input("Enter a Number and I'll tell you if is odd or even: "))
-
+# number = int(input("Enter a Number and I'll tell you if is odd or even: "))
+number = 744
 if number % 2 == 0:
     print("This Number is Even !")
 else:
