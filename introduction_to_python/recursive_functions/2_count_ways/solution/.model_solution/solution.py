@@ -4,3 +4,4 @@ def fib(n):
 def count_ways(steps): 
     return fib(steps + 1)
 
+print(count_ways(2))
