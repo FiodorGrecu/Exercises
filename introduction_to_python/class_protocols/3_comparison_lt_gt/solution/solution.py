@@ -6,11 +6,10 @@ class Vector3D:
          self.z = z
 
     def magnitude(self):
-        return math.sqrt(vect.x**2 + vect.y**2 + vect.z**2)
+        return math.sqrt(self.x**2 + self.y**2 + self.z**2)
     
     def __lt__(self, other):
-        if self.magnitude < other.magnitude:
-        return True
+        return self.magnitude() < other.magnitude()
 
     def __gt__(self, other):
         return self.magnitude() > other.magnitude()
