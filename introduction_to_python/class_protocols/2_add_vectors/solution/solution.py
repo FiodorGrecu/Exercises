@@ -1,6 +1,12 @@
 class Vector3D:
     def __init__(self, x=0, y=0, z=0):
-        pass
+        self.x = x
+        self.y = y
+        self.z = z     
     
     def __add__(self, other):
-        return
+        return Vector3D(self.x + other.x, self.y + other.y, self.z + other.z)
+# vector1 = Vector3D(1,2,3)
+# vector2 = Vector3D(1,1,1)
+# vector1 + vector2 = Vector3D
+# print(Vector3D)
