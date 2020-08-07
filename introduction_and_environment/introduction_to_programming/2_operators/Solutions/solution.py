@@ -1,1 +1,1 @@
-print("Boolean")
+print("Hexadecimal")
