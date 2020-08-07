@@ -2,6 +2,7 @@ class py_solution:
 
    # def __init__(self, fnc):
    #    self.fnc = fnc
+   #    self.result = result
    #    self.result = []
    
 
@@ -22,4 +23,4 @@ class py_solution:
       else:
          return x * pow(x, n-1)
 print(pow(2,-3))  
-# print(pow.result(3,4))
+# print(py_solution().pow.result(3,4))

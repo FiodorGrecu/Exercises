@@ -1,7 +1,7 @@
 # Unique subsets in a List
 
 # Problem Description
-Write a Python class `py_solution` to implement the method `sub_sets`, which takes in a list of integers, `sset`, and returns a list of lists of all unique subsets in `sset`. Hint: You can try using a helper function inside your class definition.
+Write a Python class `py_solution` to implement the method `sub_sets`, which takes in a list of integers, `sset`,and returns a list of lists of all unique subsets in `sset`. Hint: You can try using a helper function inside your class definition.
 
 For Example:
 ```

@@ -20,3 +20,4 @@ class py_solution:
                 num -= val[i]
             i += 1
         return roman_num
+print(py_solution().int_to_Roman(1))
