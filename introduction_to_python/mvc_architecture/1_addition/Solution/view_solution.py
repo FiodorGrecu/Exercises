@@ -1,7 +1,10 @@
 def capture_number1():
-    return
+    return f"Enter number 1: "
 def capture_number2():
-    return
+    return f"Enter number 2: "
 def display(result):
-    return
+    return f'Result is: {result}'
 
+# print(capture_number1())
+# print(capture_number2())
+# print(display(result))
