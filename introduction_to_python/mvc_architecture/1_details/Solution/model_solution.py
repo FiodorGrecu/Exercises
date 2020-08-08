@@ -1,3 +1,4 @@
-data=[]
+data = []
 def store(name,age):
-    return
+    data.append(name)
+    data.append(age)

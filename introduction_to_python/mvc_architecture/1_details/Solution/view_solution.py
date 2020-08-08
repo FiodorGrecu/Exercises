@@ -1,8 +1,8 @@
 def capture_name():
-    return
+    return f"Enter name : "
 
 def capture_age():
-    return
+    return f"Enter age : "
 
 def display(name,age):
-    return
+    return f"My name is {name}, I am {age}"
