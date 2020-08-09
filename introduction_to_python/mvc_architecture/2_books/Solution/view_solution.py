@@ -1,8 +1,8 @@
 def show_list(book_list):
-    return
+    return f'{str(book_list)}'
 
 def retrive_book():
-    return
+    return 'Enter the book name : '
 
 def display(book,author):
-    return
+    return f'{book} {author}'
