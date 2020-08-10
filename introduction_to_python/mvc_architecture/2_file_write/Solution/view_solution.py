@@ -1,10 +1,10 @@
 def ask_fileName():
-    return
+    return f'Eneter the name of your file: '
 
 def ask_content():
-    return
+    return f'Enter what would you like to write to the file: '
 
 def display(data):
-    return
+    return f'{data}'
 
 
