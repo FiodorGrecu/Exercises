@@ -8,4 +8,4 @@ def range_100(number):
         return "GREATNESS"
     else:
         return "OOPS"   
-print(range_100(4))
+print(range_100(102))
