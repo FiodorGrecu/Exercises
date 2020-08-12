@@ -3,7 +3,7 @@
 ## Motivation
 Data structures organize the storage in computers so that we can easily access and change data. Stacks and Queues are the earliest data structure defined in computer science.
 
-A Queue follows the First-in-First-Out (FIFO) principle. It is opened from both the ends hence we can easily add elements to the back and can remove elements from the front. 
+A Queue follows the First-in-First-Out (FIFO) principle. It is opened from both ends hence we can easily add elements to the back and can remove elements from the front. 
 
 A Queue is implemented using Linked Lists
 
