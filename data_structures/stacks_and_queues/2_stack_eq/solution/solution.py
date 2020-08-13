@@ -1,7 +1,7 @@
 class ListNode:
-  def __init__(self, value):
-      self.value = value
-      self.next = None
+    def __init__(self, value):
+        self.value = value
+        self.next = None
 
 class Stack:
     def __init__(self):
@@ -50,7 +50,11 @@ stack1.push(2)
 stack1.push(3)
 
 stack2 = Stack()
+stack2.push(3)
 stack2.push(2)
+stack2.push(1) 
 
 print(stack1 == stack2)
+
+
       
