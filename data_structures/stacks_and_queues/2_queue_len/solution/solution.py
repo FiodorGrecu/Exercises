@@ -26,7 +26,17 @@ class Queue:
             self.tail_node = None
         return value
 
+    def empty(self):
+        if self.head_node:
+            return False
+        return True
 
     # Fill in the code for __len__
     def __len__(self):
-        return
+        cur_node = self.head_node
+        num_nodes = 0
+        while (cur_node):
+            num_nodes += 1
+            cur_node = cur_node.next
+        return num_nodes 
+            
