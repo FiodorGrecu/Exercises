@@ -26,8 +26,13 @@ class Queue:
             self.tail_node = None
         return value
 
+    def empty(self):
+        if self.head_node:
+            return False
+        return True
+
     # Fill in the code for __bool__
     def __bool__(self):
-        return
+        return not self.head_node == None
 
 
