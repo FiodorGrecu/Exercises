@@ -25,6 +25,11 @@ class Queue:
         if not self.head_node:
             self.tail_node = None
         return value
+    
+    def empty(self):
+        if self.head_node:
+            return False
+        return True
 
     # You may want to solve this magic method first!
     def __len__(self):
@@ -38,13 +43,15 @@ class Queue:
 
     # Fill in the code for __len__
     def __eq__(self, other):
-        if len(self)==len(other):
+        if(len(self)==len(other)):
             cur_node1 = self.head_node
             cur_node2 = other.head_node
             while (cur_node1):
                 if (not cur_node1.value == cur_node2.value):
                     return False
-                cur_node1 = cur_node1.next
-                cur_node2 = cur_node2.next
-                return True
-            return False  
+                else:
+                    
+                    cur_node1 = cur_node1.next
+                    cur_node2 = cur_node2.next
+            return True
+        return False  
