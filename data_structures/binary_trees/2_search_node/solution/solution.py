@@ -23,4 +23,4 @@ items.left.right = Node(5)
 items.right.left = Node(7)
 items.right.right = Node(11)
 
-print(search(items,13))
+print(search(items,2))
