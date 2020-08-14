@@ -16,11 +16,11 @@ def height(node):
         else:
             return rheight + 1
 
-root = Node(1) 
-root.left = Node(2) 
-root.right = Node(3) 
-root.left.left = Node(4) 
+root = Node(6) 
+root.left = Node(4) 
+root.right = Node(7) 
+root.left.left = Node(3) 
 root.left.right = Node(5) 
   
   
-print (f"Height of tree is:{height(root)}") 
+print (f"Height of tree is: {height(root)}") 
