@@ -19,7 +19,7 @@ number of islands in the graph defined by the given adjacency list.
 ## Example
 ```
 adjacency_list = {
-    0: [1,3,5],
+    0: [1,3,5],   
     1: [0,1,3,6],
     2: [],
     3: [0,3],
