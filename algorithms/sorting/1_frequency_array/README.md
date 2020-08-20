@@ -1,4 +1,4 @@
-# Counting Sort - Frequency Array
+   # Counting Sort - Frequency Array
 
 ## Motivation
 Sorting is one of the most studied type of algorithms in computer science. There are many different sorting algorithms which may have different benifits and drawbacks given the problem you are trying to solve and your data. You must consider your time contraints and space constraints when choosing the appropriate sorting algorithm for your problem.

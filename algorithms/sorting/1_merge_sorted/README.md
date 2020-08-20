@@ -7,7 +7,7 @@ Sorting is important because it allows us to optimize data searching to a very h
 ## Problem Description
 In the *solution.py* file, define a function `merge_sorted` that consumes two sorted lists of integers in increasing order, `lst1` and `lst2`, and returns a new list containing all the elements from `lst1` and `lst2` in increasing sorted order.
 
-## Example
+## Example        
 ```
 lst1 = [-1, 1, 4, 6]
 lst2 = [0, 1, 2, 5, 7]
