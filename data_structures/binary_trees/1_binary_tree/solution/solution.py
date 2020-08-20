@@ -5,6 +5,7 @@ class Node:
         self.left = left
         self.right = right
 
+# smaple_tree_list = []
 leftN = Node(4)
 rightN = Node(7)
 

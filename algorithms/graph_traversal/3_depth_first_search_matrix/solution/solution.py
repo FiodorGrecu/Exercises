@@ -1,2 +1,3 @@
 def exists_path(matrix, origin, destination):
-    return
+    if origin in visited:
+        return False
