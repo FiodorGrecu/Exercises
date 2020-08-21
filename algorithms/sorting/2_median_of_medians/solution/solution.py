@@ -12,4 +12,4 @@ def median_of_medians(lst):
     else:
         return median_of_medians(medians)
 
-print(median_of_medians([9, 1, 0, 2, 3, 4, 6, 8, 7, 12, 5]))
+print(median_of_medians([9, 1, 0, 2, 3, 4, 6, 8, 7, 10, 5]))
