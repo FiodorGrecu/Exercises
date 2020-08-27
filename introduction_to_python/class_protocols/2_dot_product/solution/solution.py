@@ -6,3 +6,6 @@ class Vector3D:
     
     def __mul__(self, other):
         return self.x * other.x + self.y * other.y + self.z * other.z
+vec1 = Vector3D(1, 5, 3)
+vec2 = Vector3D(4, 4, 1)
+print(vec1 * vec2)

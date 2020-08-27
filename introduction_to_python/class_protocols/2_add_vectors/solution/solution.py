@@ -6,7 +6,6 @@ class Vector3D:
     
     def __add__(self, other):
         return Vector3D(self.x + other.x, self.y + other.y, self.z + other.z)
-# vector1 = Vector3D(1,2,3)
-# vector2 = Vector3D(1,1,1)
-# vector1 + vector2 = Vector3D
-# print(Vector3D)
+vector1 = Vector3D(1,2,3)
+vector2 = Vector3D(1,1,1)
+print(vector1 + vector2)
