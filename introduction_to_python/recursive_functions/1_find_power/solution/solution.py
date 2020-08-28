@@ -6,4 +6,4 @@ def power(a, b):
         return 0
     else:
         return a * power(a, b-1)
-print(power(2, 3))
+print(power(4, 5))
