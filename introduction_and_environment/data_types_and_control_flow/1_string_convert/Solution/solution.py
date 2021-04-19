@@ -1,6 +1,5 @@
 # Code your solution here
 data = []
-Does 
 # string = input("Enter a String: ")
 string = "UNIVERSE"
 if string.lower():
